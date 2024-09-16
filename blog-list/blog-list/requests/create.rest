@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIyIiwiaWQiOiI2NWJkMTk2OTIyOGQ0ZDAyYmU4ZjgyNzIiLCJpYXQiOjE3MDY4OTE2NDB9.j47ZMTHiO9hBWIRJ2G7JebgfEgMY7GJ6nQvvVuFXVWA  
+
+{
+    "title": "Blog entry new",
+    "author": "John Doe 4",
+    "url": "/blog-entry-1"
+}
